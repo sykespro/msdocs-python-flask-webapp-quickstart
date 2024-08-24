@@ -74,4 +74,5 @@ jobs:
         with:
           app-name: 'black-wave-49d1c3ddb610467ebc288a262d83f540'
           slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           
